@@ -3,8 +3,8 @@ import styles from "./wave.module.css"
 import clip from "../../static/shoptalk-clip.mp3"
 
 class Wave extends React.Component {
-  constructor(props) {
-    super(props);
+
+  componentDidMount() {
     this.data = this.updateCanvas()
   }
 
