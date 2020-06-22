@@ -1,0 +1,25 @@
+.header {
+    background: #282831;
+    flex: 1;
+}
+
+.header-content {
+    margin: 0 auto;
+    max-width: 960px;
+    padding: 1.45rem 1.0875rem;
+}
+
+.title {
+    color: white;
+    text-decoration: none;
+    text-shadow: none;
+    font-size: 2em;
+    background-image: none;
+}
+
+.menu-item {
+    color: white;
+    text-decoration: none;
+    text-shadow: none;
+    font-size: 1.4em;
+}

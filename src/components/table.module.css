@@ -1,0 +1,32 @@
+.title {
+    color: pink;
+    text-shadow: none;
+    font-size: 1.4em;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+    margin: 1em;
+    flex-flow: row wrap;
+}
+
+.entry {
+    -webkit-column-break-inside: avoid;
+    page-break-inside: avoid;
+    break-inside: avoid;
+    background: rgba(250, 235, 215, 0.07);
+    width: auto;
+    color: white;
+    padding: 1em;
+    border-radius: 1em;
+    margin: auto auto;
+    -webkit-box-shadow: 3px -3px 5px 0 rgba(0, 0, 0, 0.2);
+    -moz-box-shadow:    3px -3px 5px 0 rgba(0, 0, 0, 0.2);
+    box-shadow:         3px -3px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.description {
+    line-height: 0.2em;
+}

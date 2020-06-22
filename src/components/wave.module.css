@@ -1,0 +1,8 @@
+.wave-container {
+    flex: 1;
+}
+.canv {
+    background: #282831;
+    width: 100%;
+    height: 130px;
+}
