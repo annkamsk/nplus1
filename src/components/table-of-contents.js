@@ -26,11 +26,11 @@ export default function TableOfContents() {
   )
   const toExcerpt = node => {
     const title = node.headings[0].value
-    const children = node.excerptAst['children']
+    const children = node.excerptAst["children"]
 
     const dfs = root => {
       if (root.type === "text") {
-        return root.value;
+        return root.value
       }
       return root.children.map(child => dfs(child)).filter(text => text && text.length > 0)
     }
@@ -42,25 +42,24 @@ export default function TableOfContents() {
         results.push(desc[i - 1] + desc[i] + desc[i + 1])
       }
     }
-    return {'title': title, 'desc': results.map(line => (
-      <p className={styles.description}>{line}</p>
-      ))}
+    return {
+      "title": title, "desc": results.map(line => (
+        <p className={styles.description}>{line}</p>
+      ))
+    }
   }
 
   return (
     <div className={styles.container}>
       {data.allMarkdownRemark.edges.map(({ node }) => (
-        <div className={styles.entry} key={node.id}>
-          <Link to={node.fields.slug}
-                className={styles.title}>
-            <h3>
+          <Link to={node.fields.slug} className={styles.entry} key={node.id}>
+            <h3 className={styles.title}>
               {node.headings[0].value}
             </h3>
-          </Link>
-          <div>
-            { toExcerpt(node)['desc'] }
-          </div>
-        </div>
+            <div className={styles.description}>
+              {toExcerpt(node)["desc"]}
+            </div>
+        </Link>
       ))}
     </div>
   )

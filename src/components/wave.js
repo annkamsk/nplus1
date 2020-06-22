@@ -1,9 +1,11 @@
 import React from "react"
 import styles from "./wave.module.css"
+import clip from "../../static/shoptalk-clip.mp3"
 
 class Wave extends React.Component {
-  componentDidMount() {
-    this.updateCanvas()
+  constructor(props) {
+    super(props);
+    this.data = this.updateCanvas()
   }
 
   filterData(audioBuffer) {
@@ -63,13 +65,15 @@ class Wave extends React.Component {
   updateCanvas() {
     window.AudioContext = window.AudioContext || window.webkitAudioContext
     const audioContext = new AudioContext()
-    const url = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/shoptalk-clip.mp3"
 
-    fetch(url)
+    fetch(clip)
       .then(response => response.arrayBuffer())
       .then(arrayBuffer => audioContext.decodeAudioData(arrayBuffer))
-      .then(audioBuffer => this.draw(this.normalizeData(this.filterData(audioBuffer))))
-
+      .then(audioBuffer => {
+        const data = this.normalizeData(this.filterData(audioBuffer))
+        this.draw(data)
+        return data
+      })
   }
 
   render() {

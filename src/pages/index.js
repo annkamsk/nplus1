@@ -7,7 +7,7 @@ export default function Home({ data }) {
   return (
     <Layout>
       <TableOfContents>
-        { data }
+        {data}
       </TableOfContents>
     </Layout>
   )
