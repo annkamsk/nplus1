@@ -3,8 +3,8 @@ module.exports = {
     title: `Polish lyrics`,
     description: `Polskie teksty piosenek do obcojęzycznych utworów.`,
     author: `@annkamsk`,
-    pathPrefix: "/polishlyrics",
   },
+  pathPrefix: "/nplus1",
   plugins: [
     `gatsby-plugin-react-helmet`,
     {
