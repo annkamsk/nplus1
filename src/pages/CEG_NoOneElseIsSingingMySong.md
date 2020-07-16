@@ -1,6 +1,6 @@
-### Nikt nie śpiewa tego co ja
-_From_: _Crazy Ex-Girlfriend_  
-_Lyrics and music_: _RACHEL BLOOM, ADAM SCHLESINGER & JACK DOLGEN_  
+## Nikt nie śpiewa tego co ja
+*From:* Crazy Ex-Girlfriend  
+*Lyrics and music:* RACHEL BLOOM, ADAM SCHLESINGER & JACK DOLGEN  
 
 Czy tak czujesz się samotny też  
 Że gdy telefon swój odebrać chcesz  

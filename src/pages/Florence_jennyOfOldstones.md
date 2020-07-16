@@ -1,6 +1,6 @@
-### Jenny of Oldstones
-_Authors_: _Ramin Djawadi / George Raymond Richard Martin / David Benioff / Dan Weiss_  
-_© Universal Music Publishing Group_
+## Jenny of Oldstones
+*Authors: Ramin Djawadi / George Raymond Richard Martin / David Benioff / Dan Weiss*  
+*© Universal Music Publishing Group*
 
 Gdzieś w mroku sal  
 Króla co dawno zmarł  

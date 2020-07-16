@@ -1,15 +1,15 @@
 ### Ślubna pieśń ###
-_From_: _Hadestown_\
-_Title_: _Wedding song_\
-_Lyrics by_: _Anais Mitchell_
+From: Hadestown\
+Title: Wedding song\
+Lyrics by: Anais Mitchell
 
-#### EURYDYKA\
+EURYDYKA\
 Mój kochany, zdradź mi szczerze\
 Kto obrączki nam wybierze\
-Jeśli poślubię cię\
-W czasach ciężkich jak nasz każdy dzień
+Czas nie sprzyja nam\
+Coraz ciężej jest nam z każdym dniem
 
-#### ORFEUSZ\
+ORFEUSZ\
 Gdy zaśpiewam moją pieśń\
 Rzeki wnet dołączą się\
 I dla nas swój opuszczą jar\
@@ -18,13 +18,13 @@ Lśniące cuda kryje toń\
 Wszystko to na twoją dłoń\
 To rzeki do nas z twą obrączką mkną
 
-#### EURYDYKA\
+EURYDYKA\
 Mój kochany, zdradź mi śmiało\
 Co na stole będzie stało\
-Jeśli poślubię cię\
-W czasach ciężkich jak nasz każdy dzień
+Czas nie sprzyja nam\
+Coraz ciężej jest nam z każdym dniem
 
-#### ORFEUSZ\
+ORFEUSZ\
 Gdy zaśpiewam moją pieśń\
 Drzewa wnet dołączą się\
 I gałęzie swe podadzą nam\
@@ -33,57 +33,57 @@ Z jabłek i migdałów\
 I ze słodkich soków klonów\
 To drzewa tak nakryją nam do stołu
 
-#### EURYDYKA (mówione)\
+EURYDYKA (mówione)\
 czyli... gdy zaśpiewasz ją\
 pieśń, którą tak tworzysz wciąż\
 Przyjdzie wiosna znów?
 
-#### ORFEUSZ (mówione)\
+ORFEUSZ (mówione)\
 tak
 
-#### EURYDYKA (mówione)\
+EURYDYKA (mówione)\
 to czemu jej nie śpiewasz już?
 
-#### ORFEUSZ (mówione)\
+ORFEUSZ (mówione)\
 nie jest gotowa
 
-#### EURYDYKA (mówione)\
+EURYDYKA (mówione)\
 śpiewaj!\
 Chcesz mnie przy sobie mieć?
 
-#### ORFEUSZ (mówione)\
+ORFEUSZ (mówione)\
 tak!
 
-#### EURYDYKA (mówione)\
+EURYDYKA (mówione)\
 Zaśpiewaj [pieśń/więc]
 
-#### ORFEUSZ\
+ORFEUSZ\
 lalalalala
 ...
 
-#### EURYDYKA (mówione)\
+EURYDYKA (mówione)\
 Skąd to znasz?!
 
-#### ORFEUSZ (mówione)\
+ORFEUSZ (mówione)\
 Nie wiem skąd\
 Lecz nie jest gotowa wciąż
 
-#### EURYDYKA (mówione)\
+EURYDYKA (mówione)\
 Nawet jeśli...  potrafi TO? 
 
-#### ORFEUSZ (mówione)\
+ORFEUSZ (mówione)\
 No wiem
 
-#### EURYDYKA (mówione)\
+EURYDYKA (mówione)\
 Musisz ją skończyć!
 
-#### EURYDYKA\
+EURYDYKA\
 Mój kochany, zdradź mi proszę\
 Kto pościele ślubne łoże?\
-Gdy już poślubię cię\
-W czasach ciężkich jak nasz każdy dzień
+Czas nie sprzyja nam\
+Coraz ciężej jest nam z każdym dniem
 
-#### ORFEUSZ\
+ORFEUSZ\
 Gdy zaśpiewam moją pieśń\
 Ptaki wnet dołączą się\
 I zlecą do nas z wszystkich stron\
@@ -92,9 +92,9 @@ Na puchu swą ułożysz skroń\
 W pościeli cię położę\
 To ptaki tak pościelą ślubne łoże
 
-#### EURYDYKA\
+EURYDYKA\
 A drzewa tak nakryją nam do stołu!
 
-#### ORFEUSZ\
+ORFEUSZ\
 A rzeki do nas z obrączkami mkną
 
