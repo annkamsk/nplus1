@@ -2,6 +2,9 @@ import React from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import TableOfContents from "../components/table-of-contents"
+import "./index.css"
+require('typeface-lato')
+require('typeface-roboto-slab')
 
 export default function Home({ data }) {
   return (

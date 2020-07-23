@@ -12,6 +12,7 @@ export default function Layout({ children }) {
         {children}
       </div>
       <div className={styles.footer}>
+        <small>Copyright N+1 2020</small>
       </div>
     </div>
   )

@@ -1,58 +1,62 @@
-.title {
-    color: pink;
-    text-shadow: none;
-    font-size: 1.4em;
-}
-
-.description {
-    text-shadow: none;
-}
-
 .container {
+    display: flex;
+    max-width: 70%;
+    margin: auto;
+    flex-direction: column;
+}
+
+.entry-container {
     display: flex;
     justify-content: center;
     align-content: stretch;
     align-items: stretch;
-    margin: 1em;
     flex-flow: row wrap;
 }
 
-.container :hover {
-    -webkit-box-shadow: 3px -3px 5px 0 rgba(0, 0, 0, 0.4);
-    -moz-box-shadow:    3px -3px 5px 0 rgba(0, 0, 0, 0.4);
-    box-shadow:         3px -3px 5px 0 rgba(0, 0, 0, 0.4);
-    background: linear-gradient(0deg, rgba(198,186,172,1) 32%, rgba(185,173,158,1) 67%, rgba(144,135,123,1) 100%);
-}
-
 .entry {
-    -webkit-column-break-inside: avoid;
-    page-break-inside: avoid;
-    break-inside: avoid;
-    background: rgba(250, 235, 215, 0.07);
-    width: auto;
-    color: white;
-    padding: 1em;
-    border-radius: 1em;
-    margin: 2em;
-    -webkit-box-shadow: 3px -3px 5px 0 rgba(0, 0, 0, 0.2);
-    -moz-box-shadow:    3px -3px 5px 0 rgba(0, 0, 0, 0.2);
-    box-shadow:         3px -3px 5px 0 rgba(0, 0, 0, 0.2);
+    width: 465px;
+    height: 280px;
+    background: #FFF3F3;
+    border-radius: 2px;
+    margin: 0 1em 2em 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+    -webkit-box-shadow: 11px 7px 8px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 11px 7px 8px rgba(0, 0, 0, 0.25);
+    box-shadow: 11px 7px 8px rgba(0, 0, 0, 0.25);
 }
 
 .entry :hover {
     -webkit-box-shadow: none;
     -moz-box-shadow:    none;
     box-shadow:         none;
-    background: transparent;
+}
+
+.titleContainer {
+    width: 100%;
+    height: 20%;
+    margin: 0 auto 1em auto;
+    align-self: stretch;
+    background: #282831;
+    border-radius: 2px;
+}
+
+.title {
+    text-align: center;
+    margin: 0.1em auto 0 auto;
+    font: 600 28px Lato, sans-serif;
+    line-height: 43px;
+    letter-spacing: 0.1em;
+    color: rgba(100, 209, 170, 0.99);
 }
 
 .description {
     line-height: 0.2em;
-}
-
-.description :hover {
-    -webkit-box-shadow: none;
-    -moz-box-shadow:    none;
-    box-shadow:         none;
-    background: transparent;
+    margin: 0.5em 0.5em 1em 0.5em;
+    text-align: left;
+    font: 400 22px "Roboto Slab";
+    letter-spacing: 0.1em;
+    color: #000000;
 }

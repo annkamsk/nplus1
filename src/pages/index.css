@@ -1,0 +1,18 @@
+body {
+    background: rgba(40, 40, 49, 0.83);
+    width: 100vw;
+}
+
+a {
+    text-decoration: none;
+}
+a:hover {
+    opacity: 0.8;
+}
+
+small {
+    font: 400 18px Roboto serif;
+    color: rgba(100, 209, 170, 0.99);
+    text-align: center;
+}
+

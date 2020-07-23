@@ -2,7 +2,6 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 import styles from "./header.module.css"
-import { css } from "@emotion/core"
 
 const Header = ({ siteTitle }) => (
   <div className={styles.header}>
@@ -15,11 +14,13 @@ const Header = ({ siteTitle }) => (
         </Link>
         <Link
           to="/about"
-          className={styles.menuItem}
-          css={css`
-          float: right;
-        `}>
+          className={styles.menuItem}>
           About
+        </Link>
+        <Link
+          to="https://www.youtube.com/channel/UCiePXERaqOFLt_hBtUynd9g"
+          className={styles.menuItem}>
+          Youtube
         </Link>
       </div>
     </header>

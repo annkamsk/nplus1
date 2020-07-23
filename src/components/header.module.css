@@ -10,16 +10,18 @@
 }
 
 .title {
-    color: white;
-    text-decoration: none;
-    text-shadow: none;
-    font-size: 2em;
-    background-image: none;
+    font: 3em "Roboto Slab";
+    line-height: 95px;
+    letter-spacing: 0.1em;
+    color: #FDEFEF;
 }
 
 .menu-item {
-    color: white;
-    text-decoration: none;
-    text-shadow: none;
-    font-size: 1.4em;
+    float: right;
+    font: 1.4em "Roboto Slab";
+    margin-right: 1em;
+    line-height: 47px;
+    letter-spacing: 0.1em;
+    text-decoration-line: underline;
+    color: #FDEFEF;
 }

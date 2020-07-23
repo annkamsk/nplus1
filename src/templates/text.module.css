@@ -1,15 +1,61 @@
-.content {
-    -webkit-columns: 300px 2;
-    -moz-columns: 300px 2;
-    columns: 300px 2;
-    background: rgba(250, 235, 215, 0.07);
-    flex: 10;
-    width: 100vh;
-    color: white;
-    padding: 1em;
-    border-radius: 1em;
-    margin: 0 auto;
-    -webkit-box-shadow: 3px -3px 5px 0 rgba(0, 0, 0, 0.2);
-    -moz-box-shadow:    3px -3px 5px 0 rgba(0, 0, 0, 0.2);
-    box-shadow:         3px -3px 5px 0 rgba(0, 0, 0, 0.2);
+.container {
+    display: flex;
+    margin: 0 auto 0 auto;
+    flex-direction: column;
+    width: 70%;
+    background: white;
+    padding: 2em;
+}
+
+.breadcrumbs {
+    color: rgba(100, 209, 170, 0.99);
+}
+
+.breadcrumbs a {
+    color: rgba(100, 209, 170, 0.99);
+    margin: 0.3em;
+    text-decoration: underline;
+    font: 400 18px Roboto serif;
+}
+
+.breadcrumbs a:hover {
+    opacity: 0.8;
+}
+
+.content-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0.5em;
+    font: 400 20px Lato, sans-serif;
+    line-height: 24px;
+    letter-spacing: 0.1em;
+}
+
+.content-container h3 {
+    font: 400 28px Lato, sans-serif;
+    line-height: 43px;
+    letter-spacing: 0.1em;
+    color: black;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.content-container em {
+    font: 400 18px Lato, sans-serif;
+    line-height: 22px;
+    letter-spacing: 0.1em;
+    color: rgba(40, 40, 49, 0.83);
+}
+
+.content-container h5 {
+    font-variant: all-petite-caps;
+    opacity: 0.7
+}
+
+.contentPL {
+    grid-column: 1;
+}
+
+.contentOrig {
+    grid-column: 2;
 }

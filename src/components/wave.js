@@ -2,7 +2,7 @@ import React from "react"
 import styles from "./wave.module.css"
 import clip from "../../static/shoptalk-clip.mp3"
 
-class Wave extends React.Component {
+export default class Wave extends React.Component {
 
   componentDidMount() {
     this.data = this.updateCanvas()
@@ -84,5 +84,3 @@ class Wave extends React.Component {
     )
   }
 }
-
-export default Wave
