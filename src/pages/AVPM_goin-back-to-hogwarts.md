@@ -1,4 +1,4 @@
-### Kierunek Hogwart
+# Kierunek Hogwart
 _From_: _A Very Potter Musical_  
 _Title_: _Going' back to Hogwarts_  
 _By_: _Starkid_  
